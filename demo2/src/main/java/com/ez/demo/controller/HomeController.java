@@ -10,4 +10,11 @@ public class HomeController {
 		System.out.println("index page!");
         return "index";
     }
+	
+	@RequestMapping("/pd/pdList")
+	public String pdList() {
+		System.out.println("pdList page");
+		
+		return "pd/pdList";
+	}
 }
